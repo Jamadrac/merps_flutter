@@ -52,8 +52,8 @@ class _SignInScreenState extends State<SignInScreen> {
                 firebaseUIButton(context, "Sign In", () {
                   // Replace this code with your desired sign-in functionality
                   // For example, you can check credentials locally and navigate to HomeScreen if correct
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => HomeScreen()));
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => Home()));
                   // You can also show an error message if the credentials are incorrect
                 }),
                 signUpOption()
